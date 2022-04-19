@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Pokemons</h1>
+<h1>Pokemon's Wallet</h1>
 
 <div id="pokemons">
   
@@ -8,7 +8,8 @@
 
 
             <p>
-                <%= link_to pokemon['name'], pokemon %>
+                <%= link_to "Detalhes", pokemon %>
+                <%= pokemon['name'] %>
             </p>
 
 
@@ -16,4 +17,4 @@
   <% end %>
 </div>
 
-<%= link_to "New pokemon", new_pokemon_path %>
+<%= link_to "Comprar um Pokemon", new_pokemon_path %>

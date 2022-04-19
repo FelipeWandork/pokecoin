@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :wallets
   get 'historic/write'
   get 'historic/read'
   resources :pokemons

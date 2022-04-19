@@ -8,17 +8,16 @@
     <%= pokemon['name'] %><br/>
     <strong>Experiência:</strong>
     <%= @pokemon['base_experience'] %><br/>
-    <strong>Valor de compra (satoshi):</strong>
+    <strong>Quantidade de compra (satoshi):</strong>
     <%= @pokemon['value_satoshi'] %><br/>
     <strong>Valor de compra (USD):</strong>
     <%= @pokemon['value_dolar'] %><br/>
   </p>
   <p>
     <strong>Valor atualizado (satoshi):</strong>
-    <% satoshi = converter_satoshi_dollar(@pokemon['value_satoshi']) %>
-    <%= satoshi %><br/>
+    <%= @in_dollar %><br/>
     <strong>Valor atualizado (USD):</strong>
-    <%= @pokemon['value_dolar'] %><br/>
+    <%= @price_btc %><br/>
   </p>
 
 
