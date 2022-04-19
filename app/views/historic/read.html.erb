@@ -1,0 +1,9 @@
+<h1>Histórico de Operações</h1>
+<p>Operações realizadas no sistema</p>
+
+<% i = @content.length %>
+
+<% while i >= 0 do %>
+    <%= @content[i] %>
+    <% i = i-1 %> <br/>
+<% end %>

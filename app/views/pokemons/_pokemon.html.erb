@@ -1,15 +1,24 @@
 <div id="<%= dom_id pokemon %>">
 
-
+  <div>
+    <%= "Valor do BTC nas últimas 24h: USD #{@price_btc}" %>
+  </div>
   <p>
     <strong>Name:</strong>
     <%= pokemon['name'] %><br/>
     <strong>Experiência:</strong>
-    <%= pokemon['base_experience'] %><br/>
-    <strong>Valor em satoshi:</strong>
-    <%= pokemon['value_satoshi'] %><br/>
-    <strong>Valor em dólar:</strong>
-    <%= pokemon['value_dolar'] %><br/>
+    <%= @pokemon['base_experience'] %><br/>
+    <strong>Valor de compra (satoshi):</strong>
+    <%= @pokemon['value_satoshi'] %><br/>
+    <strong>Valor de compra (USD):</strong>
+    <%= @pokemon['value_dolar'] %><br/>
+  </p>
+  <p>
+    <strong>Valor atualizado (satoshi):</strong>
+    <% satoshi = converter_satoshi_dollar(@pokemon['value_satoshi']) %>
+    <%= satoshi %><br/>
+    <strong>Valor atualizado (USD):</strong>
+    <%= @pokemon['value_dolar'] %><br/>
   </p>
 
 
