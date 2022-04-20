@@ -1,20 +1,15 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Pokemon's Wallet</h1>
+<h1></h1>
 
 <div id="pokemons">
   
       <% @pokemon.each do |pokemon| %>
-
-
             <p>
                 <%= link_to "Detalhes", pokemon %>
                 <%= pokemon['name'] %>
             </p>
-
-
-
   <% end %>
 </div>
 
-<%= link_to "Comprar um Pokemon", new_pokemon_path %>
+

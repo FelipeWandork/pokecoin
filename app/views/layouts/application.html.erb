@@ -11,6 +11,18 @@
   </head>
 
   <body>
-    <%= yield %>
+
+  <div>
+    <h1>PokeCoin - Pokemon's Wallet</h1>
+  </div>
+  <div>
+    <%= link_to "Minha carteira", wallets_path %>
+    |
+    <%= link_to "Comprar Pokemon", pokemons_path+"/new" %>
+    |
+    <%= link_to "Consultar Pokemon", pokemons_path %>
+  </div>
+
+  <%= yield %>
   </body>
 </html>
