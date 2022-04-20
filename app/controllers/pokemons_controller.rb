@@ -37,6 +37,7 @@ class PokemonsController < ApplicationController
       if @pokemon.save
         format.html { redirect_to pokemon_url(@pokemon), notice: "Pokemon was successfully created." }
         format.json { render :show, status: :created, location: @pokemon }
+        format.js # views/pokemons/create.js.erb
         historic.write("Novo Pokemon", @pokemon)
   
       else

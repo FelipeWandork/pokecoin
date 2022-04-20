@@ -48,3 +48,7 @@
 2022-04-20 00:22:31 -0300: Novo Pokemon -> metapod -> Base Experience: 72
 2022-04-20 01:18:55 -0300: Novo Pokemon -> pidgeotto -> Base Experience: 200
 2022-04-20 01:19:36 -0300: Exclusão Pokemon -> pidgeotto -> Base Experience: 200
+2022-04-20 08:42:09 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
+2022-04-20 08:42:23 -0300: Exclusão Pokemon -> blastoise -> Base Experience: 113
+2022-04-20 08:52:17 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
+2022-04-20 08:52:52 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
