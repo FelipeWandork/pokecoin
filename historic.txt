@@ -52,3 +52,4 @@
 2022-04-20 08:42:23 -0300: Exclusão Pokemon -> blastoise -> Base Experience: 113
 2022-04-20 08:52:17 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
 2022-04-20 08:52:52 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
+2022-04-20 10:54:28 -0300: Exclusão Pokemon -> blastoise -> Base Experience: 113
