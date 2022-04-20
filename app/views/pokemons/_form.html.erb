@@ -1,4 +1,4 @@
-<%= form_with(model: pokemon) do |form| %>
+<%= form_for @pokemon do |pokemon_form| %>
   <% if pokemon.errors.any? %>
     <div style="color: red">
       <h2><%= pluralize(pokemon.errors.count, "error") %> prohibited this pokemon from being saved:</h2>
@@ -11,29 +11,41 @@
     </div>
   <% end %>
 
+  <!-- lista de pokemons da API -->
   <div>
-    <!-- lista de pokemons da API -->
-    <%= form.label :name, style: "display: block" %>
-    <%= form.select :name, @pokemons.map{|p|[p['name']]} %>
+    <%= pokemon_form.label :name, style: "display: block" %>
+    <%= pokemon_form.select :name, @pokemons.map{|p|[p['name']]} %>
   </div>
 
   <div>
-    <%= form.label :base_experience, style: "display: block" %>
-    <%= form.text_field :base_experience %>
+    <%= pokemon_form.label :base_experience, style: "display: block" %>
+    <%= pokemon_form.text_field :base_experience %>
   </div>
 
   <div>
-    <%= form.label :value_satoshi, style: "display: block" %>
-    <%= form.text_field :value_satoshi %>
+    <%= pokemon_form.label :value_satoshi, style: "display: block" %>
+    <%= pokemon_form.text_field :value_satoshi %>
   </div>
 
   <div>
-    <%= form.label :value_dolar, style: "display: block" %>
-    <%= form.text_field :value_dolar %>
+    <%= pokemon_form.label :value_dolar, style: "display: block" %>
+    <%= pokemon_form.text_field :value_dolar %>
   </div>
+  <!--
+  <%= fields_for :wallet, @wallet do |wallet_fields| %>
+    <div>
+      <%= wallet_fields.label :satoshi, style: "display: block" %>
+      <%= wallet_fields.text_field :satoshi %>
+    </div>
 
-
+    <div>
+      <%= wallet_fields.label :dollar, style: "display: block" %>
+      <%= wallet_fields.text_field :dollar %>
+    </div>
+  <% end %>
+-->
   <div>
-    <%= form.submit %>
+    <%= pokemon_form.submit %>
   </div>
+
 <% end %>

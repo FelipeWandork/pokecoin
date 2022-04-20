@@ -10,13 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_18_230225) do
+ActiveRecord::Schema[7.0].define(version: 2022_04_19_221913) do
   create_table "pokemons", force: :cascade do |t|
     t.string "order"
     t.string "name"
     t.string "base_experience"
     t.string "value_satoshi"
     t.string "value_dolar"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "wallets", force: :cascade do |t|
+    t.text "user"
+    t.float "satoshi"
+    t.float "dollar"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

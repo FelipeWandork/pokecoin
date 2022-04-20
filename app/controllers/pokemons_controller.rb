@@ -38,7 +38,7 @@ class PokemonsController < ApplicationController
         format.html { redirect_to pokemon_url(@pokemon), notice: "Pokemon was successfully created." }
         format.json { render :show, status: :created, location: @pokemon }
         historic.write("Novo Pokemon", @pokemon)
-
+  
       else
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @pokemon.errors, status: :unprocessable_entity }

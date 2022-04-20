@@ -1,9 +1,13 @@
 class WalletsController < ApplicationController
   before_action :set_wallet, only: %i[ show edit update destroy ]
 
+  require 'rest-client'
+  require 'json'
+
   # GET /wallets or /wallets.json
   def index
     @wallets = Wallet.all
+    @sum_satoshi = get_satoshi
   end
 
   # GET /wallets/1 or /wallets/1.json
@@ -55,6 +59,23 @@ class WalletsController < ApplicationController
       format.html { redirect_to wallets_url, notice: "Wallet was successfully destroyed." }
       format.json { head :no_content }
     end
+  end
+
+  def get_satoshi
+    get_satoshi = []
+    i = 0
+    @pokemons = Pokemon.all
+    
+    @pokemons.each do |satoshi|
+      get_satoshi[i] = satoshi['value_satoshi'].to_i
+      i = i + 1
+    end
+    get_satoshi
+
+  end
+
+  def sum_dollar
+
   end
 
   private
