@@ -12,6 +12,7 @@ class WalletsController < ApplicationController
 
   # GET /wallets/1 or /wallets/1.json
   def show
+    
   end
 
   # GET /wallets/new
@@ -67,10 +68,10 @@ class WalletsController < ApplicationController
     @pokemons = Pokemon.all
     
     @pokemons.each do |satoshi|
-      get_satoshi[i] = satoshi['value_satoshi'].to_i
+      total_satoshi[i] = satoshi['value_satoshi'].to_i
       i = i + 1
     end
-    get_satoshi
+    total_satoshi[]
 
   end
 

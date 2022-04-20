@@ -56,3 +56,7 @@
 2022-04-20 16:27:52 -0300: Novo Pokemon -> bulbasaur -> Base Experience: 64
 2022-04-20 16:29:05 -0300: Novo Pokemon -> ivysaur -> Base Experience: 142
 2022-04-20 16:29:47 -0300: Novo Pokemon -> kakuna -> Base Experience: 72
+2022-04-20 16:56:18 -0300: Novo Pokemon -> bulbasaur -> Base Experience: 100
+2022-04-20 16:56:25 -0300: Exclusão Pokemon -> bulbasaur -> Base Experience: 100
+2022-04-20 17:05:15 -0300: Novo Pokemon -> bulbasaur -> Base Experience: 100
+2022-04-20 17:14:57 -0300: Novo Pokemon -> charizard -> Base Experience: 200
