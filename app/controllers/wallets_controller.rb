@@ -63,7 +63,7 @@ class WalletsController < ApplicationController
   end
 
   def get_satoshi
-    get_satoshi = []
+    total_satoshi = []
     i = 0
     @pokemons = Pokemon.all
     
@@ -71,7 +71,7 @@ class WalletsController < ApplicationController
       total_satoshi[i] = satoshi['value_satoshi'].to_i
       i = i + 1
     end
-    total_satoshi[]
+    total_satoshi
 
   end
 

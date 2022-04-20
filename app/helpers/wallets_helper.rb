@@ -6,7 +6,7 @@ module WalletsHelper
         @sum_satoshi.each do |s|
             @sum = @sum + s
         end
-        @sum
+        
     end
 
     def helper_convert_dolar
