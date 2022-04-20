@@ -83,4 +83,5 @@ production:
   <<: *default
   database: pokecoin_production
   username: pokecoin
-  password: <%= ENV["POKECOIN_DATABASE_PASSWORD"] %>
+  password: 123.qwe
+# <%= ENV["POKECOIN_DATABASE_PASSWORD"] %>

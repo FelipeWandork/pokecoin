@@ -53,3 +53,6 @@
 2022-04-20 08:52:17 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
 2022-04-20 08:52:52 -0300: Novo Pokemon -> blastoise -> Base Experience: 113
 2022-04-20 10:54:28 -0300: Exclusão Pokemon -> blastoise -> Base Experience: 113
+2022-04-20 16:27:52 -0300: Novo Pokemon -> bulbasaur -> Base Experience: 64
+2022-04-20 16:29:05 -0300: Novo Pokemon -> ivysaur -> Base Experience: 142
+2022-04-20 16:29:47 -0300: Novo Pokemon -> kakuna -> Base Experience: 72

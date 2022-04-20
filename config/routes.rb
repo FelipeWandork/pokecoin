@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   resources :wallets
   get 'historic/write'
   get 'historic/read'
+  get 'wallets/index'
   resources :pokemons
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  root "pokemons#index"
 end
