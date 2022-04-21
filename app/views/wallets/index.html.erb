@@ -4,8 +4,7 @@
 
 <div id="wallets">
 
-<%= @sum_satoshi %>
-  <% @wallets.each do |wallet| %>
+  <% @wallets.each do |w| %>
     <%= render wallet %>
   <% end %>
 

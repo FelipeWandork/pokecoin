@@ -60,3 +60,5 @@
 2022-04-20 16:56:25 -0300: Exclusão Pokemon -> bulbasaur -> Base Experience: 100
 2022-04-20 17:05:15 -0300: Novo Pokemon -> bulbasaur -> Base Experience: 100
 2022-04-20 17:14:57 -0300: Novo Pokemon -> charizard -> Base Experience: 200
+2022-04-20 18:20:28 -0300: Novo Pokemon -> metapod -> Base Experience: 39
+2022-04-20 18:22:19 -0300: Novo Pokemon -> caterpie -> Base Experience: 263
