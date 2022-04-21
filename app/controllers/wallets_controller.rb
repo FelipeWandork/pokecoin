@@ -6,7 +6,6 @@ class WalletsController < ApplicationController
 
   # GET /wallets or /wallets.json
   def index
-    @wallets = Wallet.all
     @sum_satoshi = get_satoshi
   end
 

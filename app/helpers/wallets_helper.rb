@@ -7,7 +7,7 @@ module WalletsHelper
             @sum = @sum + s
         end
         @sum
-        
+
     end
 
     def helper_convert_dolar
@@ -15,8 +15,6 @@ module WalletsHelper
         pokemon = PokemonsController.new
         price = pokemon.price_btc['price_24h']
 
-        ((@sum * price)/100000000).ceil(8)
-       
+        @dolar = ((@sum * price)/100000000).ceil(8)
     end
-
 end
