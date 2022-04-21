@@ -64,3 +64,5 @@
 2022-04-20 18:22:19 -0300: Novo Pokemon -> caterpie -> Base Experience: 263
 2022-04-21 11:14:14 -0300: Novo Pokemon -> wartortle -> Base Experience: 100
 2022-04-21 11:22:22 -0300: Novo Pokemon -> pidgeotto -> Base Experience: 120
+2022-04-21 11:26:06 -0300: Novo Pokemon -> wartortle -> Base Experience: 200
+2022-04-21 11:33:15 -0300: Exclusão Pokemon -> wartortle -> Base Experience: 100
