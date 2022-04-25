@@ -18,11 +18,11 @@
   <div>
     <%= link_to "Minha carteira", wallets_path %>
     |
-    <%= link_to "Comprar Pokemon", pokemons_path+"/new" %>
+    <%= link_to "Comprar Pokemon", pokemons_path+"/new", :remote => true %>
     |
-    <%= link_to "Consultar Pokemon", pokemons_path %>
+    <%= link_to "Consultar Pokemon", pokemons_path, :remote => true %>
     |
-    <%= link_to "Histórico", historic_read_path %>
+    <%= link_to "Histórico", historic_read_path, :remote => true %>
   </div>
 
   <%= yield %>

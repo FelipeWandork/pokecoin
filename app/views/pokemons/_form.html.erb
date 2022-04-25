@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-          <div class='mensagem'>
+          <div class='mensagem' id='mensagem'>
             <h3></h3>
           </div>
   <!-- lista de pokemons da API -->
@@ -20,13 +20,13 @@
   </div>
 
   <div>
-    <%= pokemon_form.label :base_experience, style: "display: block" %>
-    <%= pokemon_form.text_field :base_experience %>
+    <%= pokemon_form.label :base_experience, 'Satoshi', style: "display: block" %>
+    <%= pokemon_form.text_field :base_experience, :readonly => true %>
   </div>
 
   <div>
-    <%= pokemon_form.label :value_satoshi, style: "display: block" %>
-    <%= pokemon_form.text_field :value_satoshi %>
+    <%= pokemon_form.label :value_satoshi, style: "display: none" %>
+    <%= pokemon_form.text_field :value_satoshi, style: "display: none" %>
   </div>
 
   <!--
