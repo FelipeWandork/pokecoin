@@ -70,3 +70,4 @@
 2022-04-22 16:23:40 -0300: Novo Pokemon -> caterpie -> Base Experience: 39
 2022-04-22 17:01:08 -0300: Novo Pokemon -> pidgey -> Base Experience: 50
 2022-04-22 17:03:37 -0300: Novo Pokemon -> charmeleon -> Base Experience: 142
+2022-04-27 11:33:29 -0300: Novo Pokemon -> squirtle -> Base Experience: 63
